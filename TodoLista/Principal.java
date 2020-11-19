@@ -1,4 +1,3 @@
-package TodoLista;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,12 +45,14 @@ public class Principal {
                 }
                 case "3": {
                     System.out.println(categoria);
-                    System.out.println("Qual Categoria voce deseja remover ? ");
-                    System.out.println(
+                   System.out.println("Qual Categoria voce deseja remover ? ");
+                   System.out.println("Digite o nome da categoria desejada ");
+  /*                  System.out.println(
                             "Lembrando que a primeira posição equivale sempre a 0, coleque a posição em numero:");
-
+*/
                     Scanner remover = new Scanner(System.in);
-                    int remove = remover.nextInt();
+                    String
+                     remove = remover.next();
 
                     categoria.remove(remove);
 
